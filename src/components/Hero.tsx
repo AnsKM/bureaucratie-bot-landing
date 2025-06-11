@@ -6,8 +6,8 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen pt-20 overflow-hidden hero-gradient">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
+    <section className="relative min-h-screen flex items-center overflow-hidden hero-gradient">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -26,7 +26,7 @@ export default function Hero() {
               </span>
             </motion.div>
 
-            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
               Skip the Munich Bureaucracy Queue.{' '}
               <span className="gradient-text">Forever.</span>
             </h1>

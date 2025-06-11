@@ -39,13 +39,15 @@ export default function Home() {
       </motion.div>
 
       <Hero />
-      <SocialProof />
-      <ProblemSolution />
-      <Features />
-      <Testimonials />
-      <Pricing />
-      <TrustBadges />
-      <FinalCTA />
+      <div className="space-y-20 lg:space-y-32">
+        <SocialProof />
+        <ProblemSolution />
+        <Features />
+        <Testimonials />
+        <Pricing />
+        <TrustBadges />
+        <FinalCTA />
+      </div>
     </main>
   );
 }

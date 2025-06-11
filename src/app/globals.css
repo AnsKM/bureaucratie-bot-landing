@@ -23,6 +23,7 @@
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
@@ -30,6 +31,8 @@ body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
   line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .gradient-text {
